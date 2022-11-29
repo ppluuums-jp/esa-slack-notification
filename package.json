@@ -1,0 +1,30 @@
+{
+  "name": "esa-slack-notification",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ppluuums-jp/esa-slack-notification.git",
+  "author": "cloud-ace-kodama-shinpei <kodama.shinpei@cloud-ace.jp>",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn build",
+    "fix": "markdownlint --fix --ignore node_modules **/*.md && prettier --write --ignore-path .gitignore 'src/**/*.{ts,json}'",
+    "format": "prettier --write --ignore-path .gitignore 'src/**/*.{ts,json}'",
+    "lint": "markdownlint --fix --ignore node_modules **/*.md"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "@typescript-eslint/parser": "^5.43.0",
+    "dotenv": "^16.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@suin/esa-api": "^4.0.0",
+    "@types/google-apps-script": "^1.0.56",
+    "eslint": "^8.27.0",
+    "eslint-config-prettier": "^8.5.0",
+    "markdownlint-cli": "^0.32.2",
+    "prettier": "^2.7.1"
+  }
+}

@@ -1,0 +1,32 @@
+# MD002/first-heading-h1/first-header-h1 - First heading should be a top-level heading
+MD002: false
+
+# MD012/no-multiple-blanks - Multiple consecutive blank lines
+MD012: false
+
+# MD013/line-length - Line length
+MD013: false
+
+# MD022/blanks-around-headings/blanks-around-headers - Headings should be surrounded by blank lines
+MD022: false
+
+# MD026/no-trailing-punctuation - Trailing punctuation in heading
+MD026:
+
+# MD031/blanks-around-fences - Fenced code blocks should be surrounded by blank lines
+MD031: false
+
+# MD033/no-inline-html - Inline HTML
+MD033: false
+
+# MD034/no-bare-urls - Bare URL used
+MD034: false
+
+# MD041/first-line-heading/first-line-h1 - First line in a file should be a top-level heading
+MD040: false
+
+# MD041/first-line-heading/first-line-h1 - First line in a file should be a top-level heading
+MD041: false
+
+# MD043/required-headings/required-headers - Required heading structure
+MD043: false
